@@ -1,0 +1,19 @@
+# build output
+target/
+*.class
+# never commit keys or credentials
+*.pem
+*.key
+*.p12
+.env
+# the dataset is downloaded, not committed (see README)
+data/
+*.csv.gz
+*.txt.gz
+# local noise
+logs/
+*.log
+.idea/
+*.iml
+.vscode/
+__pycache__/
