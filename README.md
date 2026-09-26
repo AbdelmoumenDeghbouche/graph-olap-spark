@@ -5,8 +5,7 @@ OLAP over a graph instead of a table. The graph is 330,317 users and products fr
 analytical queries in three classes, running on **Apache Spark + GraphFrames** with **Hadoop HDFS** and the
 **Memgraph** graph database, plus a 60-run experiment on what actually makes graph queries expensive.
 
-Built by Abdelmoumen Deghbouche as a research exercise for the iDEA Lab (Big Data Engineering & Analytics),
-University of Calabria.
+By Abdelmoumen Deghbouche.
 
 ![Query time vs vertices](results/plots/perf_vertices.png)
 
